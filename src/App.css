@@ -46,15 +46,13 @@ body {
 }
 
 .homePage {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  padding-top: 0px;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .homePage .post {
-  width: fit-content;
+  width: auto;
   height: auto;
   background-color: #493267;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
