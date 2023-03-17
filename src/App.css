@@ -48,7 +48,7 @@ body {
 .homePage {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .homePage .post {
@@ -108,4 +108,7 @@ body {
   .navTitle {
     font-size: 20px;
   }
+  .homePage {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 }
